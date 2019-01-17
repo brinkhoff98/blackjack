@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +82,165 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clubs13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spades13.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
