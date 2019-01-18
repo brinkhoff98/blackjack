@@ -12,12 +12,14 @@ namespace WindowsFormsApp4
         list myList = new list();
         Card myCard;
 
-        public Deck()
+        public Card getDeck()
         {
             int raknad = myList.Count();
             int nummer1 = randomnummer.Newrandom(raknad);
+            myCard = myList.Drawcard(nummer1);
             myCard.getValue();
             myList.RemoveAt(nummer1);
+            return myCard;
         }
     }
 }

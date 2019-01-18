@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace WindowsFormsApp4
 {
     public partial class Form1 : Form
-    {   
+    {
+        Game myGame = new Game();
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +20,9 @@ namespace WindowsFormsApp4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            PictureBox picBox = (PictureBox)tableLayoutPanel1.GetControlFromPosition(0, 0);
+            myGame.Drawcard();
+
+            pictureBox1.Image = Properties.Resources.;
         }
 
         private void button1_Click(object sender, EventArgs e)
