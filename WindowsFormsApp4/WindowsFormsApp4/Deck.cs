@@ -9,9 +9,13 @@ namespace WindowsFormsApp4
     class Deck 
     {
         Myrandom randomnummer = new Myrandom();
+        list myList = new list();
+
         public Deck()
         {
-            randomnummer.Newrandom();
+            int raknad = myList.Count();
+            int nummer1 = randomnummer.Newrandom(raknad);
+            myList.RemoveAt(nummer1);
         }
     }
 }
