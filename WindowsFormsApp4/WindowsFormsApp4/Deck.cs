@@ -10,13 +10,13 @@ namespace WindowsFormsApp4
     {
         Myrandom randomnummer = new Myrandom();
         list myList = new list();
-        Card myCard = new Card();
+        Card myCard;
 
         public Deck()
         {
             int raknad = myList.Count();
             int nummer1 = randomnummer.Newrandom(raknad);
-            
+            myCard.getValue();
             myList.RemoveAt(nummer1);
         }
     }
