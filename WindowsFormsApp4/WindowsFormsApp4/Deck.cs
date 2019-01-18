@@ -8,5 +8,10 @@ namespace WindowsFormsApp4
 {
     class Deck 
     {
+        Myrandom randomnummer = new Myrandom();
+        public Deck()
+        {
+            randomnummer.Newrandom();
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace WindowsFormsApp4
         {
 
         }
-        public void RemoveAt()
+        public void RemoveAt(int nummer)
         {
 
         }
