@@ -8,17 +8,19 @@ namespace WindowsFormsApp4
 {
     class list
     {
-        public void Add()
-        {
+        List<Card> minLista = new List<Card>();
 
+        public Card Drawcard(int nummer)
+        {
+            return minLista[nummer];
         }
-        public void Count()
+        public int Count()
         {
-
+            return minLista.Count;
         }
         public void RemoveAt(int nummer)
         {
-
+            minLista.RemoveAt(nummer);
         }
     }
 }
