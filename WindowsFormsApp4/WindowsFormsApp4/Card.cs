@@ -8,5 +8,26 @@ namespace WindowsFormsApp4
 {
     class Card
     {
+        private string color;
+        private int value;
+
+        public Card(string c, int v)
+        {
+            color = c;
+            value = v;
+        }
+
+        public string getColor()
+        {
+            return color;
+        }
+        public int getValue()
+        {
+            return value;
+        }
+        public string getImageName()
+        {
+            return color + value;
+        }
     }
 }
